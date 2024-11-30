@@ -7,3 +7,38 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#navbarNav{
+    justify-content: end !important;
+}
+
+.navbar{
+    border: 5px solid rgb(31, 9, 109);
+    background-color: #2B45DD !important;
+    margin: none ;
+}
+
+.navlink{
+color: white !important;
+}
+
+.col-6{
+    border-color: aliceblue !important;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.col-6.columna1{
+    background-color: rgb(145, 143, 63) !important;
+    padding: 20px 5px 20px 5px;
+}
+
+.col-6.columna1:hover{
+    background-color: rgb(38, 15, 139) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    padding: 20px 5px 20px 5px;
+    color: white;
+}
+
+
