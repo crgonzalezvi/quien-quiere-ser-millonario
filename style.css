@@ -8,6 +8,14 @@ body{
     background-repeat: no-repeat;
 }
 
+.row{
+    justify-content: center;
+}
+
+.col-5{
+    margin-left: 10px;
+}
+
 #navbarNav{
     justify-content: end !important;
 }
@@ -22,23 +30,60 @@ body{
 color: white !important;
 }
 
-.col-6{
+.col-5{
     border-color: aliceblue !important;
     border-radius: 20px;
     margin-top: 20px;
 
 }
 
-.col-6.columna1{
-    background-color: rgb(145, 143, 63) !important;
-    padding: 20px 5px 20px 5px;
-}
-
-.col-6.columna1:hover{
+.col-5.columna1{
     background-color: rgb(38, 15, 139) !important;
-    border: 2px solid rgb(255, 255, 255) !important;
     padding: 20px 5px 20px 5px;
     color: white;
 }
 
+.col-5.columna1:hover{
+    background-color: #F0C32E !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    padding: 20px 5px 20px 5px;
+    color: white !important;
+}
 
+#r1p1{
+    cursor: pointer;
+}
+
+#r1p1:hover{
+    cursor: pointer;
+    background-color: rgb(219, 181, 98) !important;   
+}
+#r2p1:hover{
+    cursor: pointer;
+    background-color: rgb(219, 181, 98) !important;   
+}
+#r3p1:hover{
+    cursor: pointer;
+    background-color: rgb(219, 181, 98) !important;   
+}
+#r4p1:hover{
+    cursor: pointer;
+    background-color: rgb(219, 181, 98)!important;   
+}
+
+
+#r2p1{
+    cursor: pointer;
+}
+
+#r3p1{
+    cursor: pointer;
+}
+
+#r4p1{
+    cursor: pointer;
+}
+
+a{
+    color: white
+}
